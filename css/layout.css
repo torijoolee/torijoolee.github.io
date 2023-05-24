@@ -78,6 +78,9 @@ img {
 .nav-bg {
   display: none;
 }
+.mo-br {
+  display: none;
+}
 /* ################ header ################ */
 .header {
   height: 80px;
@@ -780,7 +783,6 @@ button.search-close i {
 }
 .foot-copy {
   padding-top: 10px;
-  line-height: 1.8;
   color: #767676;
 }
 .foot-right img {

@@ -145,7 +145,7 @@
     left: -100%;
     top: 0;
     width: 320px;
-    min-width: 320px;
+    min-width: 250px;
     height: 100%;
     background-color: #494949;
     z-index: 10;
@@ -186,11 +186,12 @@
   }
   .nav-list dt i {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     position: absolute;
     right: 20px;
-    top: calc(50% - 10px);
+    top: calc(50% - 8px);
+    opacity: 0.85;
   }
   .nav-list dt i::before {
     content: "";
@@ -590,8 +591,16 @@
 }
 @media screen and (max-width: 480px) {
   /* visual */
-  .visu-left {
-    height: 250px;
+  .vist-txt-wrap h2 {
+    font-size: 30px;
+    line-height: 42px;
+  }
+  .vist-txt-wrap p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .mo-nav {
+    width: 250px;
   }
   /* brands */
   .brands {
@@ -621,5 +630,20 @@
   /* footer */
   .footer-inner {
     padding: 10% 20px;
+  }
+  .foot-logo img {
+    width: 180px;
+  }
+  .foot-link {
+    line-height: 20px;
+  }
+  .mo-br {
+    display: block;
+  }
+  .foot-link a + a::before {
+    top: 3px;
+  }
+  .foot-copy p {
+    line-height: 25px;
   }
 }
