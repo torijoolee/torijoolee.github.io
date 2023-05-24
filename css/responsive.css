@@ -614,6 +614,11 @@
   .item-cover img {
     padding-top: 0;
   }
+  /* story */
+  .story-txt p {
+    font-size: 17px;
+    line-height: 28px;
+  }
   /* news */
   .news {
     padding-top: 60px;
