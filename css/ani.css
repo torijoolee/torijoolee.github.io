@@ -1,0 +1,19 @@
+/* left to right */
+.ani.left {
+  transform: translateX(-30%);
+  opacity: 0;
+  transition: 1s ease-out;
+}
+.ani.left.moving {
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+/* rotateY */
+.ani.rotate {
+  transform: rotateY(180deg);
+  transition: 1s ease-out;
+}
+.ani.rotate.moving {
+  transform: rotateY(0deg);
+}
